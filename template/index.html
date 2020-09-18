@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FondOfFood</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                <button onclick="openMenu()">
+                    &#9776
+                </button>
+                <a href="index.html">
+                    Fond of Food
+                </a>
+            </div>
+            <div class="header-links">
+                <a href="cart.html">Cart</a>
+                <a href="signin.html">Sign In</a>
+            </div>
+
+        </header>
+        <aside class="sidebar">
+            <button class="sidebar-close-button" onclick="closeMenu()">X</button>
+            <div class="food-category">
+                <h3 class="food-category-heading">Food Categories</h3>
+                <ul class="food-category-option">
+                    <li>
+                        <a href="#">Veg</a>
+                    </li>
+                    <li>
+                        <a href="#">Non-Veg</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="content">
+                <ul class="foods">
+                    <li>
+                        <div class="food">
+                            <img class="food-image" src="./images/f1.jpg" alt="food"/>
+                            <div class="food-name"><a href="#">Chicken Masala</a></div>
+                            <div class="food-hotel-name">Maharaja</div>
+                            <div class="food-price">Rs 180/per-plate</div>
+                            <div class="food-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="food">
+                            <img class="food-image" src="./images/f1.jpg" alt="food"/>
+                            <div class="food-name"><a href="#">Chicken Masala</a></div>
+                            <div class="food-hotel-name">Maharaja</div>
+                            <div class="food-price">Rs 180/per-plate</div>
+                            <div class="food-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="food">
+                            <img class="food-image" src="./images/f1.jpg" alt="food"/>
+                            <div class="food-name"><a href="#">Chicken Masala</a></div>
+                            <div class="food-hotel-name">Maharaja</div>
+                            <div class="food-price">Rs 180/per-plate</div>
+                            <div class="food-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="food">
+                            <img class="food-image" src="./images/f1.jpg" alt="food"/>
+                            <div class="food-name"><a href="#">Chicken Masala</a></div>
+                            <div class="food-hotel-name">Maharaja</div>
+                            <div class="food-price">Rs 180/per-plate</div>
+                            <div class="food-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="food">
+                            <img class="food-image" src="./images/f1.jpg" alt="food"/>
+                            <div class="food-name"><a href="#">Chicken Masala</a></div>
+                            <div class="food-hotel-name">Maharaja</div>
+                            <div class="food-price">Rs 180/per-plate</div>
+                            <div class="food-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="food">
+                            <img class="food-image" src="./images/f1.jpg" alt="food"/>
+                            <div class="food-name"><a href="#">Chicken Masala</a></div>
+                            <div class="food-hotel-name">Maharaja</div>
+                            <div class="food-price">Rs 180/per-plate</div>
+                            <div class="food-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="food">
+                            <img class="food-image" src="./images/f1.jpg" alt="food"/>
+                            <div class="food-name"><a href="#">Chicken Masala</a></div>
+                            <div class="food-hotel-name">Maharaja</div>
+                            <div class="food-price">Rs 180/per-plate</div>
+                            <div class="food-rating">4.5 Stars (10 Reviews)</div>
+                        </div>
+                    </li>
+                   
+                </ul>
+            </div>
+        </main>
+        <footer class="footer">
+            All rights reserved.
+        </footer>
+
+    </div>
+    <script>
+        function openMenu() {
+            document.querySelector(".sidebar").classList.add("open")
+        }
+        function closeMenu() {
+            document.querySelector(".sidebar").classList.remove("open")
+        }
+    </script>
+</body>
+
+</html>
